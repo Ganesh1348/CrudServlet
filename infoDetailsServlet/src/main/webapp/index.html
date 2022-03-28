@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>infouser</title>
+</head>
+<body>
+ <h1>Add Employee</h1>  
+<form action="AddServlet" method="post">  
+<table>  
+<tr><td>infoId:</td><td><input type="text" name="id"/></td></tr>  
+<tr><td>Name:</td><td><input type="text" name="name"/></td></tr>  
+<tr><td>Email:</td><td><input type="email" name="email"/></td></tr>  
+<tr><td>City:</td><td>  
+<select name="city" style="width:150px">  
+<option>Vellore</option>  
+<option>Chennai</option>  
+<option>Hosur</option>  
+<option>Other</option>  
+</select>  
+</td></tr>  
+<tr><td colspan="2"><input type="submit" value="Add Employee"/></td></tr>  
+</table>  
+</form>  
+  
+<br/>  
+<a href="ViewEmpServlet?page=1">view employees</a>  
+</body>
+</html>
